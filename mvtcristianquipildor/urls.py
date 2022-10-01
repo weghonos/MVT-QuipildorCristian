@@ -19,5 +19,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fecha/<str:persona>', views.fecha),
+    path('usuarios/', views.ver_usuarios),
+    path('crea-usuarios/', views.crear_usuarios),
 ]
